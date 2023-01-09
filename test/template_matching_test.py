@@ -52,6 +52,7 @@ ncc3 = tm.find_template_ncc(img_float, template_float3)
 ncc4 = tm.find_template_ncc(img_float, template_narrow_float)
 # ncc5 = q2_funcs.find_template_ncc(img_float, template_narrow__tall_float)
 
+
 threshold = np.zeros(img_float.shape)
 threshold[ncc1] = 1
 threshold[ncc2] = 1
